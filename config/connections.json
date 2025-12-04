@@ -1,0 +1,10 @@
+{
+  "postgres_main": {
+    "conn_type": "postgres",
+    "host": "host.docker.internal",
+    "login": "username",
+    "password": "password",
+    "schema": "mydb",
+    "port": 5432
+  }
+}
