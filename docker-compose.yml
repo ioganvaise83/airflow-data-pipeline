@@ -9,6 +9,7 @@ x-airflow-common: &airflow-common
     - ./requirements.txt:/requirements.txt
   environment:
     AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+    PYTHONPATH: /opt/airflow
   depends_on:
     - postgres
 
